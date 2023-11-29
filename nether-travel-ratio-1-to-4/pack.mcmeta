@@ -1,0 +1,7 @@
+{
+	"pack": {
+		"pack_format": 10,
+		"supported_formats": { "min_inclusive": 10, "max_inclusive": 26 },
+		"description": "Nether travel ratio 1:4"
+	}
+}
