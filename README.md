@@ -18,6 +18,14 @@ Why? Because the roof is ugly, and if you wanna farm in the Nether you should do
 
 Most likely incompatible with other data packs that overwrite the same file (the_nether.json).
 
+## Scheduled reset of weather cycle
+
+This data pack prevents the rather excessive raining that seems to occur on multiplayer servers due to lack of sleep or disabled night skipping.
+
+The data pack simply schedules to run a command every three ingame days that makes it rain for a duration of 1 second. According to urban legends, as well as the Vanilla Tweaks Multiplayer Sleep datapack, this very brief rain will reset the weather cycle. The data pack also outputs a message in chat when this happens.
+
+The schedule is set to three ingame days to roughly simulate the vanilla single player experience of a player that sleeps only when the phantoms show up.
+
 ## "Nether fixes"
 
 Combination of 1:4 ratio and roof building prevention in the same data pack because they both overwrite the same file and as such (I believe) cannot be used at the same time.
