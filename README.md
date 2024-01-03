@@ -20,11 +20,11 @@ Most likely incompatible with other data packs that overwrite the same file (the
 
 ## Scheduled reset of weather cycle
 
-This data pack prevents the rather excessive raining that seems to occur on multiplayer servers due to lack of sleep or disabled night skipping.
+Prevents the rather excessive raining that seems to occur on multiplayer servers due to lack of sleep or disabled night skipping.
 
-The data pack simply schedules to run a command every three ingame days that makes it rain for a duration of 1 second. According to urban legends, as well as the Vanilla Tweaks Multiplayer Sleep datapack, this very brief rain will reset the weather cycle. The data pack also outputs a message in chat when this happens.
+The data pack simply schedules to run a command every 7 ingame days that makes it rain for the duration of 1 second. According to urban legends, as well as the Vanilla Tweaks Multiplayer Sleep datapack, this very brief rain will reset the weather cycle. The data pack also outputs a message in chat when this happens, noting the current ingame day for *extremely* rudimentary logging purposes.
 
-The schedule is set to three ingame days to roughly simulate the vanilla single player experience of a player that sleeps only when the phantoms show up.
+Why is the schedule set to every 7 ingame days? First of all, it's subject to change, pending further testing. Originally the schedule was set to 3 ingame days to roughly simulate the vanilla single player experience of a player that sleeps only when the phantoms show up and as such resets the weather cycle roughly every three days, but this ironically resulted in virtually no rain on the testing server. It was only when setting the schedule to every 6 ingame days that we started seeing *some* rain.
 
 ## "Nether fixes"
 
